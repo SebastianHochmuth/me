@@ -17,13 +17,17 @@ nav {
 }
 
 nav ul {
-    border-bottom: 1px solid white;
+    border: 1px solid white;
     background-color: rgb(60, 138, 138);
     width: 100%;
 }
 
 a:visited{
     color:white;
+}
+
+a:link{
+	color: white;
 }
 
 nav li {
@@ -50,14 +54,14 @@ section {
 }
 
 h1 {
-    margin: 35px auto;
+    margin: 35px auto 25px;
 }
 
 h2 {
-    margin: 35px auto;
+    margin: 35px auto 25px;
 }
 
-img {
+img.me {
     display: inline-block;
     margin: 10px 0;
     height: 200px;
@@ -67,6 +71,8 @@ img {
 td {
     padding: 5px 10px;
 }
+
+
 
 ul.programs {
     display:block;
@@ -90,11 +96,11 @@ ul.reasons li {
 
 p {
     text-align: left;
-    
+    margin: 25px auto 35px;
 }
 
 table.tSkills {
-    margin: 0 auto;
+    margin: 25px auto 35px;
     border: 1px solid white;
 }
 
@@ -118,5 +124,38 @@ table.tSkills {
 .iamT {
     text-align: left;
     padding: 15px 10px 15px 30px;
+}
+
+div.images {
+    display: block;
+    width: 700px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+}
+
+div.images2 {
+    display: block;
+    padding-bottom: 35px;
+}
+
+.images .img1 img{
+    display: inline-block;
+    vertical-align: top;
+    
+    height: 200px;
+    width: 300px;
+}
+
+.images .img1 {
+    display: inline-block;
+    vertical-align: top;
+    
+    height: 200px;
+    width: 300px;
+}
+
+.images2 .img1 {
+    height: 200px;
+    width: 300px;
 }
 
