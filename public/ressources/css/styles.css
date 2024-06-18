@@ -44,7 +44,7 @@ nav li {
 body {
     text-align: center;
     position: relative; 
-    top: 85px; 
+    top: 95px; 
     width: 78%;
     max-width: 760px;
     background-color: rgb(47, 107, 107);
@@ -114,8 +114,9 @@ p {
 table.tSkills {
     margin: 25px auto 35px;
     border: 1px solid white;
-    width: 740px;
+    width: 95%;
     min-width: 740px;
+    max-width: 740px;
 }
 
 .tSkills td {
