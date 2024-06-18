@@ -20,7 +20,7 @@ nav {
 }
 
 nav ul {
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: rgb(60, 138, 138);
     width: 100%;
 }
@@ -129,7 +129,7 @@ table.tSkills {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: rgb(60, 138, 138);
     width: 740px;
     min-width: 740px;
