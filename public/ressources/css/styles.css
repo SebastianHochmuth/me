@@ -12,8 +12,8 @@ nav {
     margin: 10 15% 10 15%;
     position: fixed;
     z-index: 10;
-    width:80%;
-    min-width: 760px;
+    width: 760px;
+    max-width: 760px;
     height: 20px;
     top:0px;
     left: 10%;
@@ -45,7 +45,8 @@ body {
     text-align: center;
     position: relative; 
     top: 80px; 
-    width: 80%;
+    width: 78%;
+    max-width: 760px;
     background-color: rgb(47, 107, 107);
     color: white;
     left: 10%;
@@ -53,6 +54,7 @@ body {
 
 hr {
     color: white;
+    margin: 35px auto;
 }
 
 section {
@@ -86,7 +88,7 @@ figcaption {
 ul.programs {
     display:block;
     width: 500px;
-    margin: 30px auto;
+    margin: 25px auto 35px;
 }
 
 ul.programs li{
@@ -112,6 +114,8 @@ p {
 table.tSkills {
     margin: 25px auto 35px;
     border: 1px solid white;
+    width: 740px;
+    min-width: 740px;
 }
 
 .tSkills td {
@@ -126,10 +130,9 @@ table.tSkills {
     justify-content: center;
     border: 1px solid white;
     background-color: rgb(60, 138, 138);
-    width: 760px;
-    min-width: 760px;
-    font-size: 16px;
-    
+    width: 740px;
+    min-width: 740px;
+    font-size: 16px;   
 }
 
 .iamT {
@@ -147,8 +150,7 @@ div.images {
 
 div.images2 {
     display: block;
-    padding-bottom: 35px;
-    margin: 0 auto;
+    margin: 0 auto 35px;
     width: 760px;
     min-width: 760px;
 }
@@ -163,7 +165,7 @@ div.images2 {
 
 .images .img1 {
     display: inline-block;
-    
+    vertical-align: top;
 }
 
 .images2 .img1 {
