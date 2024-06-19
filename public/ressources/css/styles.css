@@ -50,8 +50,10 @@ body {
 
 
 hr {
-    color: white;
+    width: 680px;
     margin: 45px auto;
+
+    color: white;
 }
 
 section {
