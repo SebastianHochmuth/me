@@ -18,7 +18,7 @@ nav {
     top: 0px;
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     z-index: 10;
 }
 
@@ -51,7 +51,7 @@ body {
 
 hr {
     color: white;
-    margin: 35px auto;
+    margin: 45px auto;
 }
 
 section {
@@ -79,7 +79,11 @@ td {
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+li {
+    font-size: 20px;
 }
 
 ul.programs {
@@ -131,7 +135,7 @@ table.tSkills {
     background-color: rgb(60, 138, 138);
     width: 740px;
     min-width: 740px;
-    font-size: 16px;   
+    font-size: 20px;   
 }
 
 .iamT {
